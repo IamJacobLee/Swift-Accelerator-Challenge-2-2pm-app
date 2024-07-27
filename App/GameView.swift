@@ -10,11 +10,13 @@ import SwiftUI
 struct GameView: View {
     var body: some View {
         NavigationView{
-            Text("Pick up the recyclable items!")
-                .navigationTitle("Game")
+            VStack{
+                Text("Pick up the recyclable items!")
+                    .offset(x:-70,y:0)
+                Spacer()
+            }.navigationTitle("Game")
         }
     }
-    
 }
 
 #Preview {

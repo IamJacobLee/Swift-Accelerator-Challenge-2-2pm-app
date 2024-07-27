@@ -11,10 +11,12 @@ struct ScannerView: View {
     var body: some View {
         NavigationView {
             
-            Text("Tap the dot to see information")
-            
-                .navigationTitle("Scanner")
-            
+            VStack {
+                Text("Tap the dot to see information")
+                Spacer()
+                    
+            }
+            .navigationTitle("Scanner")
         }
     }
 }
