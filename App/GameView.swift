@@ -35,6 +35,10 @@ struct GameView: View {
                     Text("Game Over")
                         .font(.largeTitle)
                         .padding()
+                    Text("banana peels, used tissues and batteries are unrecyclable!")
+                        .frame(maxWidth: .infinity, alignment: .center)
+                            .multilineTextAlignment(.center)
+
                     
                     Button(action: restartGame) {
                         Text("Restart Game")
