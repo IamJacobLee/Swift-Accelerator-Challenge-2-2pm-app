@@ -18,6 +18,8 @@
 		C74C1D8E2C54CB7F00A71539 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74C1D8D2C54CB7F00A71539 /* GameView.swift */; };
 		C74C1D902C54CB8E00A71539 /* DetailVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74C1D8F2C54CB8E00A71539 /* DetailVIew.swift */; };
 		C74C1D922C54CBAA00A71539 /* ScannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C74C1D912C54CBAA00A71539 /* ScannerView.swift */; };
+		D9C2FE762C5DDECB0027E1D8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2FE752C5DDECB0027E1D8 /* GameScene.swift */; };
+		D9C2FE782C5DDF060027E1D8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9C2FE772C5DDF060027E1D8 /* GameViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +54,8 @@
 		C74C1D8D2C54CB7F00A71539 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		C74C1D8F2C54CB8E00A71539 /* DetailVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVIew.swift; sourceTree = "<group>"; };
 		C74C1D912C54CBAA00A71539 /* ScannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerView.swift; sourceTree = "<group>"; };
+		D9C2FE752C5DDECB0027E1D8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		D9C2FE772C5DDF060027E1D8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,10 +108,12 @@
 			children = (
 				3FE38D812C392DD50079FBAE /* AppApp.swift */,
 				3F2CAC522C54CA360040C62B /* ContentView.swift */,
+				C74C1D912C54CBAA00A71539 /* ScannerView.swift */,
+				C74C1D8F2C54CB8E00A71539 /* DetailVIew.swift */,
 				3F2CAC502C54C8B00040C62B /* InstructionsView.swift */,
 				C74C1D8D2C54CB7F00A71539 /* GameView.swift */,
-				C74C1D8F2C54CB8E00A71539 /* DetailVIew.swift */,
-				C74C1D912C54CBAA00A71539 /* ScannerView.swift */,
+				D9C2FE752C5DDECB0027E1D8 /* GameScene.swift */,
+				D9C2FE772C5DDF060027E1D8 /* GameViewController.swift */,
 				3FE38D852C392DD70079FBAE /* Assets.xcassets */,
 				3FE38D872C392DD70079FBAE /* Preview Content */,
 			);
@@ -273,7 +279,9 @@
 				3FE38D822C392DD50079FBAE /* AppApp.swift in Sources */,
 				C74C1D902C54CB8E00A71539 /* DetailVIew.swift in Sources */,
 				C74C1D922C54CBAA00A71539 /* ScannerView.swift in Sources */,
+				D9C2FE782C5DDF060027E1D8 /* GameViewController.swift in Sources */,
 				C74C1D8E2C54CB7F00A71539 /* GameView.swift in Sources */,
+				D9C2FE762C5DDECB0027E1D8 /* GameScene.swift in Sources */,
 				3F2CAC532C54CA360040C62B /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
