@@ -17,6 +17,7 @@ struct ScannerView: View {
                     
             }
             .navigationTitle("Scanner")
+            
         }
     }
 }

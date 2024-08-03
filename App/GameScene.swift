@@ -26,7 +26,7 @@ class GameScene: SKScene{
         scoreLabel.position = CGPoint(x:190, y:680)
         scoreLabel.zPosition = 1
         scoreLabel.name = "scoreLabel"
-        scoreLabel.fontSize = 40
+        scoreLabel.fontSize = 30
         addChild(scoreLabel)
         score = 0
 
