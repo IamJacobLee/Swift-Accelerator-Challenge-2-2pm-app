@@ -43,7 +43,7 @@ class GameScene: SKScene {
         if let nodeName = tapped.name {
             switch nodeName {
             case "banana", "battery", "tissue":
-                score -= 1
+                score -= 3
             case "bottle", "box", "can":
                 score += 2
             default:
@@ -69,7 +69,7 @@ class GameScene: SKScene {
                 if let name = node.name {
                     // Only decrease the score if the node is not one of the specified items
                     if name != "banana" && name != "tissue" && name != "battery" {
-                        score -= 1
+                        score -= 3
                     }
                 }
                 node.removeFromParent()
