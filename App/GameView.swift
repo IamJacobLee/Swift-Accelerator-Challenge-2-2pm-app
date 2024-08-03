@@ -9,6 +9,7 @@ import SwiftUI
 import SpriteKit
 
 struct GameView: View {
+    @State private var showingSheet = false
     
     let screenWidth = UIScreen.main.bounds.width
     let screenHeight = UIScreen.main.bounds.height
@@ -24,16 +25,24 @@ struct GameView: View {
     
     var body: some View {
         NavigationView{
-            VStack{
-                SpriteView(scene: scene)
-                    .frame(width: screenWidth, height: screenHeight)
-                    .edgesIgnoringSafeArea(.all)
+            NavigationStack{
+                VStack{
+                    SpriteView(scene: scene)
+                        .frame(width: screenWidth, height: screenHeight)
+                        .edgesIgnoringSafeArea(.all)
+                }
+                .navigationTitle("Game")
+                .toolbar {
+                    Button("Instructions") {
+                        showingSheet.toggle()
+                    }
+                    .sheet(isPresented: $showingSheet) {
+                        InstructionsView()
+                    }
+                }
             }
-            .navigationTitle("Game")
         }
-    }
-}
-
+    }}
 #Preview {
     GameView()
 }
