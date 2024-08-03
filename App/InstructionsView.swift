@@ -14,15 +14,17 @@ struct InstructionsView: View {
         VStack(alignment: .center){
             Text("1. Items will jump up from below")
             Text("2. Click on the recyclable items before they fall into the abyss")
-            
-            Text("3. Have fun!")
+            Text("3. Banana peel, battery and used tissues are unrecyclable.")
+            Text("4. Have fun!")
         }.frame(maxWidth: .infinity, alignment: .center)
             .multilineTextAlignment(.center)
+        
         Button("Press to dismiss") {
             dismiss()
+                
         }
         .font(.title)
-        .padding()
+        .padding(50)
         
         
         //             1. Slide your finger around to move the bin. 2. Items will fall from the sky. 3. Move and make sure only the recyclable items land in the bin. 4. If you catch an item that is not recyclable, a screen will pop up and explain to you what you did wrong. 5. Have fun!")

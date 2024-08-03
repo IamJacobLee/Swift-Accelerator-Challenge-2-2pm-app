@@ -43,6 +43,8 @@ struct GameView: View {
                             .background(Color.blue)
                             .foregroundColor(.white)
                             .cornerRadius(10)
+                        
+                        
                     }
                 } else {
                     Text("Score: \(score)")
