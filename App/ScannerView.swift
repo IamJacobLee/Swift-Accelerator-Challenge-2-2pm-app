@@ -10,14 +10,12 @@ import SwiftUI
 struct ScannerView: View {
     var body: some View {
         NavigationView {
-            
             VStack {
                 Text("Tap the dot to see information")
                 Spacer()
-                    
+                
             }
             .navigationTitle("Scanner")
-            
         }
     }
 }

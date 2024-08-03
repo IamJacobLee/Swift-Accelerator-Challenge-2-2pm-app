@@ -19,13 +19,13 @@ struct InstructionsView: View {
         }.frame(maxWidth: .infinity, alignment: .center)
             .multilineTextAlignment(.center)
         Button("Press to dismiss") {
-                    dismiss()
-                }
-                .font(.title)
-                .padding()
-               
-             
-//             1. Slide your finger around to move the bin. 2. Items will fall from the sky. 3. Move and make sure only the recyclable items land in the bin. 4. If you catch an item that is not recyclable, a screen will pop up and explain to you what you did wrong. 5. Have fun!")
+            dismiss()
+        }
+        .font(.title)
+        .padding()
+        
+        
+        //             1. Slide your finger around to move the bin. 2. Items will fall from the sky. 3. Move and make sure only the recyclable items land in the bin. 4. If you catch an item that is not recyclable, a screen will pop up and explain to you what you did wrong. 5. Have fun!")
     }
 }
 
