@@ -4,20 +4,28 @@
 //
 //  Created by Li Xianlin on 27/7/24.
 //
-
 import SwiftUI
-
 struct ScannerView: View {
+    @State private var image: Image?
+    @State private var showingImagePicker = false
+
     var body: some View {
-        NavigationView {
-            VStack{
-                Text("Tap the dot to see information.")
-                Spacer()
+        VStack {
+            image?
+                .resizable()
+                .scaledToFit()
+
+            Button("Select Image") {
+               showingImagePicker = true
             }
-            .navigationTitle("Scanner")
+        }
+        .sheet(isPresented: $showingImagePicker) {
+            ImagePicker()
         }
     }
 }
-#Preview {
-    DetailVIew()
+
+
+#Preview{
+    ScannerView()
 }

@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		3F2CAC512C54C8B00040C62B /* InstructionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CAC502C54C8B00040C62B /* InstructionsView.swift */; };
 		3F2CAC532C54CA360040C62B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2CAC522C54CA360040C62B /* ContentView.swift */; };
+		3F40822E2C674FF4001039B8 /* ScannerAI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40822D2C674FF4001039B8 /* ScannerAI.swift */; };
+		3F4082302C67503A001039B8 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F40822F2C67503A001039B8 /* ImagePicker.swift */; };
+		3F4082322C67506E001039B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F4082312C67506E001039B8 /* ViewController.swift */; };
+		3F4082342C67511A001039B8 /* YOLOv3FP16.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = 3F4082332C67511A001039B8 /* YOLOv3FP16.mlpackage */; };
 		3FE38D822C392DD50079FBAE /* AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FE38D812C392DD50079FBAE /* AppApp.swift */; };
 		3FE38D862C392DD70079FBAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38D852C392DD70079FBAE /* Assets.xcassets */; };
 		3FE38D892C392DD70079FBAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FE38D882C392DD70079FBAE /* Preview Assets.xcassets */; };
@@ -42,6 +46,10 @@
 /* Begin PBXFileReference section */
 		3F2CAC502C54C8B00040C62B /* InstructionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsView.swift; sourceTree = "<group>"; };
 		3F2CAC522C54CA360040C62B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3F40822D2C674FF4001039B8 /* ScannerAI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScannerAI.swift; sourceTree = "<group>"; };
+		3F40822F2C67503A001039B8 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		3F4082312C67506E001039B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F4082332C67511A001039B8 /* YOLOv3FP16.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; name = YOLOv3FP16.mlpackage; path = ../../YOLOv3FP16.mlpackage; sourceTree = "<group>"; };
 		3FE38D7E2C392DD50079FBAE /* App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = App.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FE38D812C392DD50079FBAE /* AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppApp.swift; sourceTree = "<group>"; };
 		3FE38D852C392DD70079FBAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -109,12 +117,16 @@
 				3FE38D812C392DD50079FBAE /* AppApp.swift */,
 				3F2CAC522C54CA360040C62B /* ContentView.swift */,
 				C74C1D912C54CBAA00A71539 /* ScannerView.swift */,
+				3F40822D2C674FF4001039B8 /* ScannerAI.swift */,
+				3F40822F2C67503A001039B8 /* ImagePicker.swift */,
+				3F4082312C67506E001039B8 /* ViewController.swift */,
 				C74C1D8F2C54CB8E00A71539 /* DetailVIew.swift */,
 				3F2CAC502C54C8B00040C62B /* InstructionsView.swift */,
 				C74C1D8D2C54CB7F00A71539 /* GameView.swift */,
 				D9C2FE752C5DDECB0027E1D8 /* GameScene.swift */,
 				D9C2FE772C5DDF060027E1D8 /* GameViewController.swift */,
 				3FE38D852C392DD70079FBAE /* Assets.xcassets */,
+				3F4082332C67511A001039B8 /* YOLOv3FP16.mlpackage */,
 				3FE38D872C392DD70079FBAE /* Preview Content */,
 			);
 			path = App;
@@ -279,8 +291,12 @@
 				3FE38D822C392DD50079FBAE /* AppApp.swift in Sources */,
 				C74C1D902C54CB8E00A71539 /* DetailVIew.swift in Sources */,
 				C74C1D922C54CBAA00A71539 /* ScannerView.swift in Sources */,
+				3F4082342C67511A001039B8 /* YOLOv3FP16.mlpackage in Sources */,
+				3F4082322C67506E001039B8 /* ViewController.swift in Sources */,
+				3F40822E2C674FF4001039B8 /* ScannerAI.swift in Sources */,
 				D9C2FE782C5DDF060027E1D8 /* GameViewController.swift in Sources */,
 				C74C1D8E2C54CB7F00A71539 /* GameView.swift in Sources */,
+				3F4082302C67503A001039B8 /* ImagePicker.swift in Sources */,
 				D9C2FE762C5DDECB0027E1D8 /* GameScene.swift in Sources */,
 				3F2CAC532C54CA360040C62B /* ContentView.swift in Sources */,
 			);
